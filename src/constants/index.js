@@ -8,13 +8,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
+  firebase,
   meta,
   starbucks,
   tesla,
@@ -81,10 +79,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -93,8 +87,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "Three JS",
@@ -107,11 +101,7 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
