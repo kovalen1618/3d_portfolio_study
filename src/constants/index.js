@@ -9,18 +9,17 @@ import {
   css,
   reactjs,
   tailwind,
+  csharp,
   nodejs,
   git,
   figma,
   firebase,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  thecoderschool,
+  priora,
   threejs,
+  dotNet,
+  masterycoding,
+  thecodeguild,
 } from "../assets";
 
 export const navLinks = [
@@ -40,8 +39,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Frontend Developer",
+    icon: creator,
   },
   {
     title: "Backend Developer",
@@ -53,7 +52,7 @@ const services = [
   },
   {
     title: "Coding Instructor",
-    icon: creator,
+    icon: web,
   },
 ];
 
@@ -95,6 +94,14 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: ".NET",
+    icon: dotNet,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -106,55 +113,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Coding Instructor",
+    company_name: "The Coder School",
+    icon: thecoderschool,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Aug 2021 - Mar 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Teaching children ages 7 to 18 relevant skills in coding with languages such as Python, JavaScript, and C#.",
+      "Collaborating with other coding instructors to create a high-quality learning environment for students.",
+      "Participating in code reviews and providing constructive feedback to students.",
+      "Mentoring future instructors to help the company grow with our ideals in mind.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Academic Services Specialist",
+    company_name: "Mastery Coding",
+    icon: masterycoding,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2021 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Giving large virtual lectures to students grade 5 to 12 in fundamentals of web and game development.",
+      "Performing code reviews with students in HTML/CSS, JavaScript, and the p5.js library to help them create outstanding projects.",
+      "Creating computer science and eSports curriculm for students grades 2 to 5 at a level that young minds can easily grasp and be motivated to learn from.",
+      "Mentoring future coding instructors within the company and leading them through vital team meetings.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "CEO",
+    company_name: "The Code Guild",
+    icon: thecodeguild,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Mar 2023 - Now",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building technical curriculum involving topics such as computer science, web development, and game development.",
+      "Managing company infrastructure and finances alongside building up business plan and ideals.",
+      "Tutoring grade school students virtually and in-person to get them started in programming or assisting them with school projects.",
     ],
   },
 ];
@@ -188,67 +182,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Priora",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application made for users to increase their productivity and organize their workflows by making them adhere to the mindset of prioritizing one task at a time",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "firebase",
+        color: "orange-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: priora,
+    source_code_link: "https://github.com/kovalen1618/priora",
   },
 ];
 

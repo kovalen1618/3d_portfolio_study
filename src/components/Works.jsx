@@ -29,7 +29,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               // Opens link to Github repository when card is clicked
-              onClick={() => window.oper (source_code_link, "_blank")}
+              onClick={() => window.open (source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               {/* Github Icon */}
