@@ -13,20 +13,19 @@ import firebase from "./tech/firebase.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import csharp from "./tech/csharp.png";
+import dotNet from "./tech/dotNet.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import thecoderschool from "./company/thecoderschool.png";
+import masterycoding from  "./company/masterycoding.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import priora from "./priora.png";
+import tjnailsalon from "./tjnailsalon.png";
 
 export {
   logo,
@@ -43,16 +42,15 @@ export {
   git,
   html,
   javascript,
+  csharp,
+  dotNet,
   nodejs,
   reactjs,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  thecoderschool,
+  masterycoding,
+  priora,
+  tjnailsalon,
 };
