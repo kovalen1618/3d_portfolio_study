@@ -23,9 +23,9 @@ import threejs from "./tech/threejs.svg";
 
 import thecoderschool from "./company/thecoderschool.png";
 import masterycoding from  "./company/masterycoding.svg";
-import thecodeguild from "./company/thecodeguild.png";
 
 import priora from "./priora.png";
+import tjnailsalon from "./tjnailsalon.png";
 
 export {
   logo,
@@ -51,6 +51,6 @@ export {
   threejs,
   thecoderschool,
   masterycoding,
-  thecodeguild,
   priora,
+  tjnailsalon,
 };
