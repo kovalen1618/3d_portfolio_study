@@ -16,7 +16,6 @@ import {
   firebase,
   thecoderschool,
   priora,
-  tjnailsalon,
   threejs,
   dotNet,
   masterycoding,
@@ -138,45 +137,6 @@ const experiences = [
       "Mentoring future coding instructors within the company and leading them through vital team meetings.",
     ],
   },
-  {
-    title: "React Developer",
-    company_name: "Freelance",
-    icon: reactjs,
-    iconBg: "#383E56",
-    date: "Mar 2023 - Now",
-    points: [
-      "Designing mockups accurately to clients’ needs in Figma while outlining user stories and updates weekly.",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Building fast, scalable, and secure websites using Firebase and working closely with clients to meet their data needs.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
 ];
 
 const projects = [
@@ -199,27 +159,6 @@ const projects = [
       },
     ],
     image: priora,
-    source_code_link: "https://github.com/kovalen1618/priora",
-  },
-  {
-    name: "TJ Nail Salon",
-    description:
-      "Business site that allows users to dynamically view information about the nail salon such as the services, reviews, and imagery as well as having the ability to set appointments",
-    tags: [
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: tjnailsalon,
     source_code_link: "https://github.com/kovalen1618/priora",
   },
 ];
