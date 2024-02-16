@@ -19,6 +19,9 @@ import {
   threejs,
   dotNet,
   masterycoding,
+  savvycoders,
+  mongodb,
+  expressjs
 } from "../assets";
 
 export const navLinks = [
@@ -69,28 +72,28 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "ExpressJS",
+    icon: expressjs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "Firebase",
-    icon: firebase,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "C#",
@@ -99,10 +102,6 @@ const technologies = [
   {
     name: ".NET",
     icon: dotNet,
-  },
-  {
-    name: "git",
-    icon: git,
   },
   {
     name: "figma",
@@ -137,6 +136,19 @@ const experiences = [
       "Mentoring future coding instructors within the company and leading them through vital team meetings.",
     ],
   },
+  {
+    title: "Teaching Assistant",
+    company_name: "Savvy Coders Technologies",
+    icon: savvycoders,
+    iconBg: "#ffffff",
+    date: "Jan 2024 - Now",
+    points: [
+      "Attend weekly staff meetings to ensure that student goals were being met, and that the curriculum was being properly implemented.",
+      "Manage Jira ticketing process for student issue tickets, working with students to resolve issues with homework, class activities, etc.",
+      "Facilitate class as instructor when needed.",
+      "Help run Scrum Ceremonies (Daily Standups, Sprint Retrospectives, Sprint Planning) and offer guidance to the students when needed."
+    ]
+  }
 ];
 
 const testimonials = [
@@ -173,20 +185,24 @@ const projects = [
       "Web application made for users to increase their productivity and organize their workflows by making them adhere to the mindset of prioritizing one task at a time",
     tags: [
       {
-        name: "react",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
-        color: "orange-text-gradient",
+        name: "express",
+        color: "pink-text-gradient",
       },
       {
-        name: "css",
+        name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
       },
     ],
     image: priora,
-    source_code_link: "https://github.com/kovalen1618/priora",
+    source_code_link: "https://github.com/kovalen1618/capstone",
   },
 ];
 
