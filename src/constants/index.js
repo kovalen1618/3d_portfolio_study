@@ -16,10 +16,12 @@ import {
   firebase,
   thecoderschool,
   priora,
-  tjnailsalon,
   threejs,
   dotNet,
   masterycoding,
+  savvycoders,
+  mongodb,
+  expressjs
 } from "../assets";
 
 export const navLinks = [
@@ -70,28 +72,28 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "ExpressJS",
+    icon: expressjs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "Firebase",
-    icon: firebase,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "C#",
@@ -100,10 +102,6 @@ const technologies = [
   {
     name: ".NET",
     icon: dotNet,
-  },
-  {
-    name: "git",
-    icon: git,
   },
   {
     name: "figma",
@@ -139,17 +137,18 @@ const experiences = [
     ],
   },
   {
-    title: "React Developer",
-    company_name: "Freelance",
-    icon: reactjs,
-    iconBg: "#383E56",
-    date: "Mar 2023 - Now",
+    title: "Teaching Assistant",
+    company_name: "Savvy Coders Technologies",
+    icon: savvycoders,
+    iconBg: "#ffffff",
+    date: "Jan 2024 - Now",
     points: [
-      "Designing mockups accurately to clients’ needs in Figma while outlining user stories and updates weekly.",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Building fast, scalable, and secure websites using Firebase and working closely with clients to meet their data needs.",
-    ],
-  },
+      "Attend weekly staff meetings to ensure that student goals were being met, and that the curriculum was being properly implemented.",
+      "Manage Jira ticketing process for student issue tickets, working with students to resolve issues with homework, class activities, etc.",
+      "Facilitate class as instructor when needed.",
+      "Help run Scrum Ceremonies (Daily Standups, Sprint Retrospectives, Sprint Planning) and offer guidance to the students when needed."
+    ]
+  }
 ];
 
 const testimonials = [
@@ -186,41 +185,24 @@ const projects = [
       "Web application made for users to increase their productivity and organize their workflows by making them adhere to the mindset of prioritizing one task at a time",
     tags: [
       {
-        name: "react",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
-        color: "orange-text-gradient",
+        name: "express",
+        color: "pink-text-gradient",
       },
       {
-        name: "css",
+        name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
       },
     ],
     image: priora,
-    source_code_link: "https://github.com/kovalen1618/priora",
-  },
-  {
-    name: "TJ Nail Salon",
-    description:
-      "Business site that allows users to dynamically view information about the nail salon such as the services, reviews, and imagery as well as having the ability to set appointments",
-    tags: [
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: tjnailsalon,
-    source_code_link: "https://github.com/kovalen1618/priora",
+    source_code_link: "https://github.com/kovalen1618/capstone",
   },
 ];
 

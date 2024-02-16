@@ -20,12 +20,14 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import expressjs from "./tech/expressjs.svg";
+import mongodb from "./tech/mongodb.svg";
 
 import thecoderschool from "./company/thecoderschool.png";
-import masterycoding from  "./company/masterycoding.svg";
+import masterycoding from "./company/masterycoding.svg";
+import savvycoders from "./company/savvycoders.jpg";
 
 import priora from "./priora.png";
-import tjnailsalon from "./tjnailsalon.png";
 
 export {
   logo,
@@ -49,8 +51,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  expressjs,
+  mongodb,
   thecoderschool,
   masterycoding,
+  savvycoders,
   priora,
-  tjnailsalon,
 };
